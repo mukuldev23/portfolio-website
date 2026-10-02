@@ -12,7 +12,7 @@ export const profile = {
   location: "Virar, Mumbai, India",
   status: "OPEN TO NEW OPPORTUNITIES",
   email: "mukulchavan23@gmail.com",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Mukul_Chavan_Resume.pdf",
   socials: [
     { label: "GitHub", href: "https://github.com/mukuldev23", icon: "github" },
     { label: "LinkedIn", href: "https://linkedin.com/in/mukul-chavan", icon: "linkedin" },
@@ -65,7 +65,6 @@ export const skillGroups = [
 export const skills = skillGroups.flatMap((g) => g.items);
 
 // "What I've Done" — one card per kind of project built.
-// `context` is the small line under the title (where / what for).
 export const workDone = [
   {
     title: "Angular Project",

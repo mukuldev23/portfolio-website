@@ -90,7 +90,6 @@ export default function Home() {
               <Reveal key={s.title} delay={i * 60}>
                 <OsWindow title={`work_0${i + 1}.log`} className="card lift">
                   <h3>{s.title}</h3>
-                  <div className="price">{s.context}</div>
                   <p>{s.desc}</p>
                   <div className="tags">
                     {s.tags.map((t) => (
@@ -153,7 +152,7 @@ export default function Home() {
                 </div>
               </div>
               <div style={{ marginTop: 28 }}>
-                <a className="retro-btn filled" href={profile.resumeUrl} target="_blank" rel="noreferrer">
+                <a className="retro-btn filled" href={profile.resumeUrl} download="Mukul_Chavan_Resume.pdf">
                   ⬇ Download Resume
                 </a>
               </div>
